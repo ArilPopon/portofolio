@@ -1,25 +1,19 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiHtml5,
   DiCss3,
   DiJavascript1,
   DiPhp,
   DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
   DiGit,
-  DiJava,
   DiLaravel,
   DiBootstrap,
+  DiWordpress,
 } from "react-icons/di";
 import {
+  SiMysql,
   SiTailwindcss,
-  SiWordpress
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
@@ -43,7 +37,13 @@ function Techstack() {
         <DiPhp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiWordpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
