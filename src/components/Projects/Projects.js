@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import LaporinAja from "../../Assets/Projects/leaf.png";
+import LaporinAja from "../../Assets/Projects/laporinAja.png";
 import contactManagement from "../../Assets/Projects/contactManagement.png";
 import tokoMasErisonSiregar from "../../Assets/Projects/tokoMasErisonSiregar.png";
 import sistemManajemenPerpustakaan from "../../Assets/Projects/perpustakaan.png";
