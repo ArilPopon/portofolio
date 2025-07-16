@@ -6,13 +6,14 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import profilbg from "../../Assets/fotoaril2.jpg";
 import Toolstack from "./Toolstack";
+import Certificate from "./Certificate";
 
 function About() {
   return (
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row style={{ justifyContent: "center", padding: "10px", }}>
           <Col
             md={7}
             style={{
@@ -33,6 +34,13 @@ function About() {
             <img src={profilbg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+
+        <h1 className="project-heading">
+          <strong className="oren">Sertifikat </strong> Saya
+        </h1>
+
+        <Certificate />
+
         <h1 className="project-heading">
           <strong className="oren">Skill </strong> Saya
         </h1>
